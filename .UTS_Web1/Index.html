@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata Mahasiswa</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="profile-card">
+            <div class="header">
+                <img src="profile-image.jpg" alt="Profile" class="profile-image">
+                <h1>Digdaya Pamungkas</h1>
+                <p>Teknik Informatika - Angkatan 2023</p>
+            </div>
+
+            <div class="tab-container">
+                <button class="tab-button active" data-tab="pribadi">Data Pribadi</button>
+                <button class="tab-button" data-tab="akademik">Akademik</button>
+                <button class="tab-button" data-tab="prestasi">Prestasi</button>
+            </div>
+
+            <div class="content">
+                <div id="pribadi" class="tab-content active">
+                    <div class="info-group">
+                        <div class="info-item">
+                            <div class="info-label">NIM</div>
+                            <div>2310010402</div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-label">Tempat Lahir</div>
+                            <div>Banjarmasin</div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-label">Tanggal Lahir</div>
+                            <div>21 November 2005</div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-label">Alamat</div>
+                            <div>Jl. Tembus Mantuil Gg. Perintis</div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-label">Email</div>
+                            <div>digdayabjm223@gmail.com</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="akademik" class="tab-content">
+                    <div class="semester-info">
+                        <div class="semester-card">
+                            <h3>Semester 1</h3>
+                            <div class="ipk">3.85</div>
+                        </div>
+                        <div class="semester-card">
+                            <h3>Semester 2</h3>
+                            <div class="ipk">3.70</div>
+                        </div>
+                        <div class="semester-card">
+                            <h3>IPK</h3>
+                            <div class="ipk">3.90</div>
+                        </div>
+                    </div>
+
+                    <div class="info-group">
+                        <div class="info-item">
+                            <div class="info-label">Program Studi</div>
+                            <div>Teknik Informatika</div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-label">Fakultas</div>
+                            <div>Fakultas Teknik</div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-label">Dosen Pengajar</div>
+                            <div>Yusup Indra Wijaya, S.kom., M.Kom.</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="prestasi" class="tab-content">
+                    <div class="achievement">
+                        <h3>Sertifikat Operator Komputer Madya</h3>
+                        <p>2023 - Pelatihan Kompetensi</p>
+                    </div>
+                    <div class="achievement">
+                        <h3>Kompetensi Sains Nasional</h3>
+                        <p>2021 - Tingkat Kota Banjarmasin</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
